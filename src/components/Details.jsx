@@ -8,15 +8,15 @@ const Details = () => {
     const {id}=useParams();
     const parseint=parseInt(id)
 
-    console.log('id is ' ,parseint);
+
     const data=useLoaderData();
-    console.log(data);
+
     useEffect(()=>{
 
         const findData=data?.find((dt)=>dt.id===parseint);
        
         setDetails(findData)
-        console.log(findData);
+
     },[id,data])
 
 

@@ -1,26 +1,52 @@
 import PropTypes from "prop-types";
+import swal from 'sweetalert2'
 const DetailsCard = ({ details }) => {
   const { id, text_color, image, title, donation_price ,description} =details || {};
 
 
-const handleDonate=()=>{
-    console.log('clicked');
+// const handleDonate=()=>{
+   
 
-    const donateMoney=JSON.parse(localStorage.getItem('donate'))
-    const addDonateMoney=[];
-    if(!donateMoney){
-        addDonateMoney.push(details)
-        localStorage.setItem('donate',JSON.stringify(details))
+//     const donateMoney=JSON.parse(localStorage.getItem('donate'))
+
+//     const addDonateMoney=[];
+//     if(!donateMoney){
+//         addDonateMoney.push(details)
+//         localStorage.setItem('donate',JSON.stringify(addDonateMoney))
         
+//     }
+//     else{
+//          console.log('clicked');
+//         // addDonateMoney.push(...donateMoney,details)
+//         addDonateMoney.push( ...donateMoney , details);
+
+//         localStorage.setItem('donate',JSON.stringify(addDonateMoney))
+
+
+//     }
+
+// }
+
+const handleDonate = () => {
+    const donateMoneyString = localStorage.getItem('donate');
+    let donateMoney = [];
+  
+    if (donateMoneyString) {
+      // Parse the stored data as JSON into an array
+      donateMoney = JSON.parse(donateMoneyString);
+      console.log('if condifiton');
     }
-    else{
-        addDonateMoney.push(...donateMoney,details)
-        localStorage.setItem('donate',JSON.stringify(details))
+  
+    
+    // Add the new item (details) to the array
+    donateMoney.push(details);
+  
+    // Save the updated array back to localStorage
+    localStorage.setItem('donate', JSON.stringify(donateMoney));
+    // swal("Success!", "You donate successfully!", "success")
 
-
-    }
-
-}
+  };
+  
 
 
   return (
@@ -41,8 +67,8 @@ const handleDonate=()=>{
 
       </div>
       <div className="card-body space-y-5">
-          <h2 className="text-4xl font-bold ">{title}</h2>
-          <p className="text-sm">{description}</p>
+          <h2 className="text-5xl font-bold ">{title}</h2>
+          <p className="text-md">{description}</p>
          
         </div>
     </div>

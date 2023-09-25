@@ -20,7 +20,7 @@ const Banner = () => {
                 placeholder="Category"
                 className="input input-bordered w-[700px] pr-16"
               />
-              <button className="btn bg-red-500 text-white normal-case  absolute top-0 hover:text-black right-0 rounded-l-none">
+              <button className="p-3 rounded-lg bg-[#FF444A] text-white normal-case  absolute top-0 hover:text-black right-0 rounded-l-none">
                 Search
               </button>
             </div>
