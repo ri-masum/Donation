@@ -1,29 +1,19 @@
+import { useLoaderData } from "react-router-dom";
+import Banner from "../components/Banner";
+import SingleData from "../SingleData/SingleData";
+
 const Home = () => {
+    const allData=useLoaderData();
+
   return (
     <div>
-      <div
-        className="hero min-h-[90vh]"
-        style={{
-          backgroundImage:
-            "url(https://img.freepik.com/free-photo/team-young-specialist-doctors-standing-corridor-hospital_1303-21199.jpg)",
-        }}
-      >
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Category"
-                className="input input-bordered w-[700px] pr-16"
-              />
-              <button className="btn bg-red-500 text-white normal-case  absolute top-0 hover:text-black right-0 rounded-l-none">
-                Search
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+     <Banner></Banner>
+     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-16 place-items-center  ">
+        {
+            allData.map(data=><SingleData key={data.id} data={data}></SingleData>)
+        }
+     </div>
+
     </div>
   );
 };

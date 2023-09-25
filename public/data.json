@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "category": "Health",
+        "donation_price": 50,
+        "text_color": "#0052FF",
+        "bg_color": "rgba(0, 82, 255, 0.15)",
+        "image": "https://i.ibb.co/5sSJx8x/Health.png",
+        "title": "Support Health Initiatives"
+    },
+    {
+        "id": 2,
+        "category": "Education",
+        "donation_price": 30,
+        "text_color": "#FF444A",
+        "bg_color": "rgba(255, 68, 74, 0.15)",
+        "image": "https://i.ibb.co/zmDPqMD/Education.png",
+        "title": "Empower Education"
+    },
+    {
+        "id": 3,
+        "category": "Clothing",
+        "donation_price": 20,
+        "text_color": "#79C23F",
+        "bg_color": "rgba(121, 194, 63, 0.15)",
+        "image": "https://i.ibb.co/v4VTBMk/Clothing.png",
+        "title": "Donate Clothing"
+    },
+    {
+        "id": 4,
+        "category": "Food",
+        "donation_price": 10,
+        "text_color": "#F87147",
+        "bg_color": "rgba(248, 113, 71, 0.15)",
+        "image": "https://i.ibb.co/SnfT0k9/Food.png",
+        "title": "Help Provide Food"
+    },
+    {
+        "id": 5,
+        "category": "Health",
+        "donation_price": 40,
+        "text_color": "#0052FF",
+        "bg_color": "rgba(0, 82, 255, 0.15)",
+        "image": "https://i.ibb.co/5sSJx8x/Health.png",
+        "title": "Support Health Initiatives"
+    },
+   
+    {
+        "id": 7,
+        "category": "Clothing",
+        "donation_price": 15,
+        "text_color": "#79C23F",
+        "bg_color": "rgba(121, 194, 63, 0.15)",
+        "image": "https://i.ibb.co/v4VTBMk/Clothing.png",
+        "title": "Donate Clothing"
+    },
+    {
+        "id": 6,
+        "category": "Education",
+        "donation_price": 25,
+        "text_color": "#FF444A",
+        "bg_color": "rgba(255, 68, 74, 0.15)",
+        "image": "https://i.ibb.co/zmDPqMD/Education.png",
+        "title": "Empower Education"
+    },
+    {
+        "id": 8,
+        "category": "Food",
+        "donation_price": 12,
+        "text_color": "#F87147",
+        "bg_color": "rgba(248, 113, 71, 0.15)",
+        "image": "https://i.ibb.co/SnfT0k9/Food.png",
+                "title": "Help Provide Food"
+    },
+   
+    {
+        "id": 10,
+        "category": "Education",
+        "donation_price": 35,
+        "text_color": "#FF444A",
+        "bg_color": "rgba(255, 68, 74, 0.15)",
+        "image": "https://i.ibb.co/zmDPqMD/Education.png",
+        "title": "Empower Education"
+    },
+   
+    {
+        "id": 9,
+        "category": "Health",
+        "donation_price": 60,
+        "text_color": "#0052FF",
+        "bg_color": "rgba(0, 82, 255, 0.15)",
+        "image": "https://i.ibb.co/5sSJx8x/Health.png",
+        "title": "Support Health Initiatives"
+    },
+    {
+        "id": 12,
+        "category": "Food",
+        "donation_price": 8,
+        "text_color": "#F87147",
+        "bg_color": "rgba(248, 113, 71, 0.15)",
+        "image": "https://i.ibb.co/SnfT0k9/Food.png",
+                "title": "Help Provide Food"
+    },
+    {
+        "id": 11,
+        "category": "Clothing",
+        "donation_price": 22,
+        "text_color": "#79C23F",
+        "bg_color": "rgba(121, 194, 63, 0.15)",
+        "image": "https://i.ibb.co/v4VTBMk/Clothing.png",
+        "title": "Donate Clothing"
+    }
+]
