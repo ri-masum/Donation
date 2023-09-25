@@ -6,7 +6,9 @@
         "text_color": "#0052FF",
         "bg_color": "rgba(0, 82, 255, 0.15)",
         "image": "https://i.ibb.co/5sSJx8x/Health.png",
-        "title": "Support Health Initiatives"
+        "title": "Support Health Initiatives",
+        "description": "Support our Health category to make a difference in the lives of those in need. Your contribution will help us provide essential medical services, medicines, and healthcare resources to communities facing health challenges. Together, we can ensure that everyone has access to quality healthcare and a healthier future."
+
     },
     {
         "id": 2,
@@ -15,7 +17,9 @@
         "text_color": "#FF444A",
         "bg_color": "rgba(255, 68, 74, 0.15)",
         "image": "https://i.ibb.co/zmDPqMD/Education.png",
-        "title": "Empower Education"
+        "title": "Empower Education",
+        "description": "Empower the next generation through our Education category. Your generous donation will support educational initiatives, provide scholarships, and enhance learning opportunities for underserved students. Help us create a brighter future by giving the gift of education."
+
     },
     {
         "id": 3,
@@ -24,7 +28,9 @@
         "text_color": "#79C23F",
         "bg_color": "rgba(121, 194, 63, 0.15)",
         "image": "https://i.ibb.co/v4VTBMk/Clothing.png",
-        "title": "Donate Clothing"
+        "title": "Donate Clothing",
+        "description": "Empower the next generation through our Education category. Your generous donation will support educational initiatives, provide scholarships, and enhance learning opportunities for underserved students. Help us create a brighter future by giving the gift of education."
+
     },
     {
         "id": 4,
@@ -33,7 +39,11 @@
         "text_color": "#F87147",
         "bg_color": "rgba(248, 113, 71, 0.15)",
         "image": "https://i.ibb.co/SnfT0k9/Food.png",
-        "title": "Help Provide Food"
+        "title": "Help Provide Food",
+        "description": "Help provide food to those who are hungry and in need. Your donation will support food banks, meal programs, and initiatives to combat hunger. Together, we can make sure that no one goes to bed hungry in our community."
+
+
+
     },
     {
         "id": 5,
@@ -42,7 +52,9 @@
         "text_color": "#0052FF",
         "bg_color": "rgba(0, 82, 255, 0.15)",
         "image": "https://i.ibb.co/5sSJx8x/Health.png",
-        "title": "Support Health Initiatives"
+        "title": "Support Health Initiatives",
+        "description": "Support our Health category to make a difference in the lives of those in need. Your contribution will help us provide essential medical services, medicines, and healthcare resources to communities facing health challenges. Together, we can ensure that everyone has access to quality healthcare and a healthier future."
+
     },
    
     {
@@ -52,7 +64,9 @@
         "text_color": "#79C23F",
         "bg_color": "rgba(121, 194, 63, 0.15)",
         "image": "https://i.ibb.co/v4VTBMk/Clothing.png",
-        "title": "Donate Clothing"
+        "title": "Donate Clothing",
+        "description": "Donate clothing to make a positive impact on the lives of those in need. Your contribution will provide warm clothing to individuals and families facing challenging circumstances. Join us in spreading warmth and comfort through your generous donation."
+
     },
     {
         "id": 6,
@@ -61,7 +75,9 @@
         "text_color": "#FF444A",
         "bg_color": "rgba(255, 68, 74, 0.15)",
         "image": "https://i.ibb.co/zmDPqMD/Education.png",
-        "title": "Empower Education"
+        "title": "Empower Education",
+        "description": "Empower the next generation through our Education category. Your generous donation will support educational initiatives, provide scholarships, and enhance learning opportunities for underserved students. Help us create a brighter future by giving the gift of education."
+
     },
     {
         "id": 8,
@@ -70,7 +86,10 @@
         "text_color": "#F87147",
         "bg_color": "rgba(248, 113, 71, 0.15)",
         "image": "https://i.ibb.co/SnfT0k9/Food.png",
-                "title": "Help Provide Food"
+                "title": "Help Provide Food",
+                "description": "Help provide food to those who are hungry and in need. Your donation will support food banks, meal programs, and initiatives to combat hunger. Together, we can make sure that no one goes to bed hungry in our community."
+
+
     },
    
     {
@@ -80,7 +99,9 @@
         "text_color": "#FF444A",
         "bg_color": "rgba(255, 68, 74, 0.15)",
         "image": "https://i.ibb.co/zmDPqMD/Education.png",
-        "title": "Empower Education"
+        "title": "Empower Education",
+        "description": "Empower the next generation through our Education category. Your generous donation will support educational initiatives, provide scholarships, and enhance learning opportunities for underserved students. Help us create a brighter future by giving the gift of education."
+
     },
    
     {
@@ -90,7 +111,9 @@
         "text_color": "#0052FF",
         "bg_color": "rgba(0, 82, 255, 0.15)",
         "image": "https://i.ibb.co/5sSJx8x/Health.png",
-        "title": "Support Health Initiatives"
+        "title": "Support Health Initiatives",
+        "description": "Support our Health category to make a difference in the lives of those in need. Your contribution will help us provide essential medical services, medicines, and healthcare resources to communities facing health challenges. Together, we can ensure that everyone has access to quality healthcare and a healthier future."
+
     },
     {
         "id": 12,
@@ -99,7 +122,10 @@
         "text_color": "#F87147",
         "bg_color": "rgba(248, 113, 71, 0.15)",
         "image": "https://i.ibb.co/SnfT0k9/Food.png",
-                "title": "Help Provide Food"
+                "title": "Help Provide Food",
+                "description": "Help provide food to those who are hungry and in need. Your donation will support food banks, meal programs, and initiatives to combat hunger. Together, we can make sure that no one goes to bed hungry in our community."
+
+
     },
     {
         "id": 11,
@@ -108,6 +134,8 @@
         "text_color": "#79C23F",
         "bg_color": "rgba(121, 194, 63, 0.15)",
         "image": "https://i.ibb.co/v4VTBMk/Clothing.png",
-        "title": "Donate Clothing"
+        "title": "Donate Clothing",
+        "description": "Donate clothing to make a positive impact on the lives of those in need. Your contribution will provide warm clothing to individuals and families facing challenging circumstances. Join us in spreading warmth and comfort through your generous donation."
+
     }
 ]
