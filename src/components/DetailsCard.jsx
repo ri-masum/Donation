@@ -1,40 +1,30 @@
 import PropTypes from "prop-types";
-import swal from 'sweetalert2'
+import Swal from 'sweetalert2'
 const DetailsCard = ({ details }) => {
   const { id, text_color, image, title, donation_price ,description} =details || {};
 
 
-// const handleDonate=()=>{
-   
 
-//     const donateMoney=JSON.parse(localStorage.getItem('donate'))
-
-//     const addDonateMoney=[];
-//     if(!donateMoney){
-//         addDonateMoney.push(details)
-//         localStorage.setItem('donate',JSON.stringify(addDonateMoney))
-        
-//     }
-//     else{
-//          console.log('clicked');
-//         // addDonateMoney.push(...donateMoney,details)
-//         addDonateMoney.push( ...donateMoney , details);
-
-//         localStorage.setItem('donate',JSON.stringify(addDonateMoney))
-
-
-//     }
-
-// }
 
 const handleDonate = () => {
+  
     const donateMoneyString = localStorage.getItem('donate');
     let donateMoney = [];
   
     if (donateMoneyString) {
       // Parse the stored data as JSON into an array
       donateMoney = JSON.parse(donateMoneyString);
-      console.log('if condifiton');
+      // console.log('if condifiton');
+     
+      const isExist=donateMoney.some(item=>item.id ===id)
+      if(isExist){
+        Swal.fire(
+          'Oops!',
+          'This card is already in your donation list.',
+          'warning'
+        );
+        return;
+      }
     }
   
     
@@ -44,7 +34,11 @@ const handleDonate = () => {
     // Save the updated array back to localStorage
     localStorage.setItem('donate', JSON.stringify(donateMoney));
     // swal("Success!", "You donate successfully!", "success")
-
+    Swal.fire(
+      'Good job!',
+      'You Donate SuccesFully!',
+      'success'
+    )
   };
   
 

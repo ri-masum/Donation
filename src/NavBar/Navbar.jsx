@@ -4,10 +4,10 @@ import Logo from "./Logo";
 
 const Navbar = () => {
     return (
-        <div className="w-full p-2">
-        <nav className="flex justify-between w-11/12 mx-auto items-center ">
+        <div className="max-w-full  p-2 ">
+        <nav className="flex flex-col  md:flex-row  md:justify-between w-11/12 mx-auto items-center">
             <Logo></Logo>
-          <ul className="flex gap-5 font-semibold">
+          <ul className="flex gap-5 font-semibold ">
             <li>
               <NavLink
                 to="/home"
