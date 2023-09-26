@@ -54,7 +54,7 @@ const handleDonate = () => {
         onClick={handleDonate}
 
         style={{backgroundColor:text_color}} 
-         className="p-3 rounded-lg absolute bottom-4 left-4">
+         className="p-3 rounded-lg absolute text-white bottom-4 left-4">
             Donate ${donation_price}
             </button>
 

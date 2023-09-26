@@ -19,7 +19,7 @@ const DonateCard = ({ donate }) => {
           >
             {category}
           </h2>
-          <p className=" font-bold text-md" style={{ color: text_color }}>
+          <p className=" font-bold text-md text-black text-xlf" >
             {title}
           </p>
           <p className="font-semibold" style={{color:text_color}}>${donation_price}.00</p>
